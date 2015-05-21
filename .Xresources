@@ -7,6 +7,8 @@ URxvt.intensityStyles: false
 URxvt.scrollBar: false
 URxvt.keysym.F11: wmctrl -r nicholas@nicholas-Aspire-E5-511 -b toggle,fullscreen
 URxvt.keysym.F10: xrdb -merge ~/.Xresources
+URxvt.keysym.F12: git push -u origin master
+URxvt.keysym.F8: git remote add origin https://github.com/NTS716/
 
 ! Common
 

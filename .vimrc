@@ -21,3 +21,12 @@ syntax enable
 set t_Co=16
 set bg=dark
 colorscheme solarized
+
+"quick searching
+map <C-x> :%s/
+
+"better mapping for reverse case
+map <space>a ~
+
+"reverse case a word
+map <space>w gUw
